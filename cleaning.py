@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import datetime as dt
 
-data = pd.read_csv('contacts.csv')
+data = pd.read_csv('Offers.csv')
 data['date'] = pd.to_datetime(data['date'])
 print(data.dtypes)
 
